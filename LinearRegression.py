@@ -53,10 +53,8 @@ class Graph:
         
         for node in self._nodes: # for every node stored in self._nodes
             (xnode,ynode) = node
-            rise += (xnode-xmean) * (ynode-ymean) 
-            # calculates average distance each node is from the mean 
-            run += (xnode-xmean)**2
-            # calculates the density of the nodes
+            rise += (xnode-xmean) * (ynode-ymean)  # calculates average distance each node is from the mean 
+            run += (xnode-xmean)**2  # calculates the density of the nodes
             
         slope = rise / run
         intercept = ymean - slope * xmean
