@@ -1,6 +1,6 @@
 # Joshua Arias
 
-# module to visual linear regression
+# module to visualize linear regression using ordinary least squares
 
 import tkinter
 
